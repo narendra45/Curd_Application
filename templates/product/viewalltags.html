@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tags</title>
+    
+<body>
+<table class="table table-bordered" border="1">
+      <thead>
+        <tr>
+            
+            <th>Product Tags</th>
+        </tr>
+      </thead>
+<tbody>
+{% for tag in tags %}
+    <tr>
+        <td>{{ tag.product_name }}</td>
+    </td>
+    </tr>
+{% endfor %}
+</tbody>
+</table>
+
+</body>
+</html>
+
